@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSansLight-Italic.woff2') format('woff2'), url('OpenSansLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.woff2') format('woff2'), url('OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.woff2') format('woff2'), url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gora Free';
+    src: url('GoraFree-Regular.woff2') format('woff2'), url('GoraFree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.section__title {
+    font-size: 49px;
+}
+
+.features__unique-title {
+    font-size: 10.78px;
+}
+
+.footer__creator,
+.footer__socials-text {
+    font-size: 14px;
+}
+.section__title{
+    text-align: center;
+}
+.features-section,
+.pagination {
+    text-align: center;
+    margin: 0px;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+.news-section {
+    padding-left: 20px;
+}
+
+.contacts__phone {
+    font-size: 21px;
+    font-style: normal;
+}
+
+.contacts__description {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+
+.menu {
+    font-size: 12px;
+}
+
+.logo {
+    font-family: 'Gora Free';
+    font-size: 18px;
+}
+
+.footer__creator-link,
+.footer__creator-name,
+.header,
+.features__unique-title,
+.pagination__item,
+.news__name,
+.section__title {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.footer__creator-link {
+    text-decoration: underline;
+}
+
+.news__date {
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+}
+
+.news__text {
+    font-size: 18px;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+.news__name {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.footer__logo,
+.footer__socials {
+    padding-left: 300px;
+}
+
+.header,
+.footer {
+    background: rgb(13, 14, 15);
+    width: 100%;
+    color: white;
+}
+
+.footer__socials-text
+{
+    text-align: right;
+}
+
+.logo,
+.menu,
+.contacts,
+.pagination__display,
+.pagination__controlls,
+.footer__creator,
+.footer__logo,
+.footer__socials {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo,
+.footer__creator {
+    padding: 20px;
+}
+
+.menu__list,
+.contacts {
+    padding-left: 300px;
+    border: 0px;
+    margin: 0px;
+}
+
+.pagination__list,
+.footer__creator-text,
+.footer__creator-name,
+.footer__socials-list,
+.footer__socials-text {
+    margin: 0px;
+}
+
+.logo__image {
+    width: 50px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+.contacts__description {
+    text-decoration: underline;
+}
+
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__icon-picture,
+.footer__social-images {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.menu__item {
+    display: inline-block;
+}
+.news__block-two {
+    padding-left: 20px;
+}
+.features__slogan {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.features__list-item{
+    padding-bottom: 30px;
+}
+.last__news-picture {
+    padding-bottom: 20px;
+}
+.menu__title,
+.menu__icon,
+.features__item,
+.news__block-one,
+.news__block-two {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.news__block-two {
+    width: 250px;
+}
+
+.news__avatar,
+.news__desc {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.news__desc {
+    width: 800px;
+    height: 200px;
+}
+
+.sidebar__title {
+    display: block;
+}
+
+.route__img-elem {
+    width: 100%;
+    height: 625px;
+}
+
+.reviews__avatar__picture {
+    width: 100px;
+    height: 100px;
+}
+
+.last__news-picture {
+    width: 150px;
+    height: 150px;
+}
+
+.features__item {
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    border: 3px rgb(255, 255, 255);
+}
+   
+.news__item {
+    list-style-type: none;
+}
+
+.last__news-item {
+    list-style-type: none;
+}
+
+.features__list-item {
+    font-size: 18px;
+}
+
+.features-section {
+    background: rgb(13, 14, 15);
+    width: 100%;
+    height: 570px;
+    color: white;
+}
+.features {
+    padding-top: 50px;
+}
